@@ -14,6 +14,14 @@
       "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-1170x780.jpg",
       "videoUrl": "https://example.com/video2",
       "price": 15
+    },
+    {
+      "id": 3,
+      "title": "Advanced MD Simulations 3",
+      "description": "Dive into advanced techniques for MD simulations.",
+      "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-1170x780.jpg",
+      "videoUrl": "https://example.com/video2",
+      "price": 15
     }
   ]
   
