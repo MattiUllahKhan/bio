@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        var pathname = window.location.pathname;
-        if (pathname !== "/") {
-            window.location.replace("/#" + pathname);
+        var path = window.location.pathname;
+        var baseUrl = window.location.origin;
+
+        if (path !== "/") {
+            window.location.href = baseUrl + path;
+        } else {
+            window.location.href = baseUrl;
         }
     </script>
 </head>
 <body>
-    <p>If you are not redirected, <a id="redirect-link" href="/">click here</a>.</p>
-    <script>
-        document.getElementById("redirect-link").href = "/#" + window.location.pathname;
-    </script>
+    <p>Redirecting...</p>
 </body>
 </html>
