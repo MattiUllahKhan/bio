@@ -7,7 +7,7 @@
     <script>
         (function() {
             var path = window.location.pathname;
-            var newUrl = "/" + path.replace(/^\/+/, ""); // Ensure no double slashes
+            var newUrl = "/" + path; // Ensure no double slashes
             
             // Redirect if the user directly accesses a route
             if (path !== "/") {
