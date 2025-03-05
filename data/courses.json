@@ -2,9 +2,7 @@
   {
     "id": 1738487392327,
     "title": "Tools to visualize and observe protein structure",
-    "description": "Many Tools offers different interfaces to visualize and edit protein structures in different ways. Some common softwares are 1. PyMOL – High-quality molecular visualization, supports scripting for modifications, 2. ChimeraX – Successor to UCSF Chimera, offers interactive visualization and analysis, 3. UCSF Chimera – Powerful for visualization, docking, and molecular dynamics.
-VMD, 4. Visual Molecular Dynamics) – Used for molecular dynamics visualization, works well with GROMACS and NAMD, 5. Lightweight Java-based tool for quick 3D molecular visualization. MolStar Web-based interactive visualization
-",
+    "description":"Different Tools are available for protein structure visualization and editing like Pymol, ChimeraX, UCSF Chimera, VMD(Visual Molecular Dynamics), Jmol and MolStar a web based tool for protein structure visualization,",
     "image": "https://bioinformaticstools.news/reasons-for-biologists-to-cultivate-coding.webp",
     "price": 10,
     "percentOff": 100,
