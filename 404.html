@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        var path = window.location.pathname;
-        var baseUrl = window.location.origin;
+        (function() {
+            var path = window.location.pathname;
+            var origin = window.location.origin;
+            
+            // Prevent infinite loops by checking the referrer
+            if (document.referrer.includes(origin)) return;
 
-        if (path !== "/") {
-            window.location.href = baseUrl + path;
-        } else {
-            window.location.href = baseUrl;
-        }
+            // Redirect to the correct path
+            window.location.replace(origin + path);
+        })();
     </script>
 </head>
 <body>
