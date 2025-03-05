@@ -2,45 +2,59 @@
   {
     "id": 1738487392327,
     "title": "Tools to visualize and observe protein structure",
-    "description":"Different Tools are available for protein structure visualization and editing like Pymol, ChimeraX, UCSF Chimera, VMD(Visual Molecular Dynamics), Jmol and MolStar a web based tool for protein structure visualization,",
-    "image": "https://bioinformaticstools.news/reasons-for-biologists-to-cultivate-coding.webp",
+    "description":"Different Tools are available for protein structure visualization and editing like Pymol, ChimeraX, UCSF Chimera, VMD(Visual Molecular Dynamics), Jmol and MolStar a web based tool for protein structure visualization",
+    "image": "https://raw.githubusercontent.com/MattiUllahKhan/bio/refs/heads/main/images/courses/Protein_Structure_visualization_and_editing_tools.webp",
     "price": 10,
     "percentOff": 100,
     "date" : "03/02/2025",
-    "Updated" : "04/02/2025",
+    "Updated" : "05/03/2025",
     "sections": [
       {
         "type": "heading",
         "title": "New Section",
-        "content": "Power Up Biology: Why and how Biologist can Learn and use Code?"
+        "content": "Tools to visualize and observe protein structure"
       },
       {
         "type": "text",
         "title": "New Section",
-        "content": "Biology is continuously evolving field in case of research and data analysis. In this course we will analyse the data more practically and every little step. As per my whole career I always opted for advancement and more automation compared to larger amout of tools available on internet. In the last step we will discuss about how to make pipelines in programming to automate the data."
+        "content": "Different Tools are available for protein structure visualization and editing like Pymol, ChimeraX, UCSF Chimera, VMD(Visual Molecular Dynamics), Jmol and MolStar a web based tool for protein structure visualization."
       },
       {
         "type": "heading",
         "title": "New Section",
-        "content": "Power Up Your Biology: Why Every Biologist Should Learn to Code",
+        "content": "Pymol",
         "level": "h2"
       },
       {
         "type": "text",
         "title": "New Section",
-        "content": "This question is answered in this video. But! you can also read answer in a paragraph below this video."
+        "content": "Best for high qulity protein structure visualization and can be run over Windows, Mac Os and Linux having commercial versions and open source. "
       },
       {
         "type": "heading",
         "title": "New Section",
-        "content": "Tutorial 1:",
+        "content": "Features:",
         "level": "h4"
       },
       {
-        "type": "video",
+        "type": "text",
         "title": "New Section",
-        "content": "",
-        "youtubeId": "OvM8EAyt2Zk?si=SFikYl1piqpjJlas"
+        "content": "✅ 3D Molecular Visulization - can be used for publications. "
+      },
+      {
+        "type": "text",
+        "title": "New Section",
+        "content": "✅ Protein and Ligands interaction can make easy to visualize dock structures of proteins and ligands. "
+      },
+      {
+        "type": "text",
+        "title": "New Section",
+        "content": "✅ Have option of batch processing by python scripting. "
+      },
+      {
+        "type": "text",
+        "title": "New Section",
+        "content": "✅ Options for editing structures within pymol software. "
       },
       {
         "type": "heading",
