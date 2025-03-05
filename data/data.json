@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "image": "https://cdn.pixabay.com/photo/2023/05/06/13/49/wachapreague-7974344_960_720.jpg",
+      "title": "React Documentation",
+      "link": "https://reactjs.org/",
+      "description": "Learn about React, a JavaScript library for building user interfaces."
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.pixabay.com/photo/2023/05/06/13/49/wachapreague-7974344_960_720.jpg",
+      "title": "MDN Web Docs",
+      "link": "https://developer.mozilla.org/",
+      "description": "Explore web development documentation and tutorials."
+    }
+  ]
+  
