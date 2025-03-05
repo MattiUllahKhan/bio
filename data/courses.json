@@ -1,8 +1,10 @@
 [
   {
     "id": 1738487392327,
-    "title": "Why Biologists Should Learn to Code?",
-    "description": "Biology is continuously evolving and programming is not just for computer science students. Biologists can also learn it and get benefits of it , like big data summerization and analysis. So as far biology gets into experimental aspect of life it is essential for many biologists to get hands on practice thousands of tools developed in different programming languages like R , Python and Javascript.",
+    "title": "Tools to visualize and observe protein structure",
+    "description": "Many Tools offers different interfaces to visualize and edit protein structures in different ways. Some common softwares are 1. PyMOL – High-quality molecular visualization, supports scripting for modifications, 2. ChimeraX – Successor to UCSF Chimera, offers interactive visualization and analysis, 3. UCSF Chimera – Powerful for visualization, docking, and molecular dynamics.
+VMD, 4. Visual Molecular Dynamics) – Used for molecular dynamics visualization, works well with GROMACS and NAMD, 5. Lightweight Java-based tool for quick 3D molecular visualization. MolStar Web-based interactive visualization
+",
     "image": "https://bioinformaticstools.news/reasons-for-biologists-to-cultivate-coding.webp",
     "price": 10,
     "percentOff": 100,
