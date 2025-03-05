@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found</title>
+    <title>Redirecting...</title>
+    <script>
+        (function() {
+            var path = window.location.pathname;
+            var newUrl = "/" + path.replace(/^\/+/, ""); // Ensure no double slashes
+            
+            // Redirect if the user directly accesses a route
+            if (path !== "/") {
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
 </head>
 <body>
-    <h1>You can visit pages through website not directly by links</h1>
-    <p>Redirecting to the homepage...</p>
-    <p style="color:red;">Use search bar to find whatever tool or course you want to visit</p>
-    <script>
-        setTimeout(() => {
-            window.location.href = "/";
-        }, 3000); // Redirect after 3 seconds
-    </script>
+    <h1>Redirecting...</h1>
 </body>
 </html>
