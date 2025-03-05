@@ -1,0 +1,28 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */ width: 100%;
+    background-color: #f0f0f000; /* Light background for contrast */
+  }
+  
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border: 8px solid transparent;
+    border-top: 8px solid #ff5733; /* Vibrant orange */
+    border-right: 8px solid #33ff57; /* Vibrant green */
+    border-bottom: 8px solid #3357ff; /* Vibrant blue */
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

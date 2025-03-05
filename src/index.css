@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a{
+    @apply px-5 py-3 m-auto min-w-32 max-w-32 text-center
+}
+a{
+    @apply m-auto;
+}

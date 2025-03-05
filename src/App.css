@@ -1,0 +1,30 @@
+nav a{
+    @apply px-5 py-10;
+}
+
+.h1-container {
+    position: relative;
+    width: 300px; /* Set the specific width for the container */
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .h1-container h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .h1-container::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px; /* Width of the blur effect */
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    pointer-events: none;
+  }
+  
