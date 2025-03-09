@@ -1,11 +1,32 @@
 [
   {
     "id": 1741481403869,
-    "title": "New asa",
-    "description": "",
-    "image": "",
-    "price": 0,
-    "percentOff": 0,
-    "sections": []
+    "title": "Protein structure visualization and editing tools",
+    "description": "Main protein strucutre editing and visualization tools are as follow",
+    "image": "https://raw.githubusercontent.com/MattiUllahKhan/bioinformaticstoolsnews/main/images/Protein_Structure_visualization_and_editing_tools.webp",
+    "price": 10,
+    "percentOff": 100,
+    "sections": [
+      {
+        "type": "heading",
+        "title": "New Section",
+        "content": "Protein structure visualization and editing tools",
+        "level": "h4"
+      },
+      {
+        "type": "image",
+        "title": "New Section",
+        "content": "https://raw.githubusercontent.com/MattiUllahKhan/bioinformaticstoolsnews/main/images/Protein_Structure_visualization_and_editing_tools.webp"
+      }
+    ],
+    "metaTitle": "Protein structure visualization and editing tools",
+    "metaDescription": "Main protein strucutre editing and visualization tools are as follow",
+    "metaKeywords": [
+      "protein",
+      "protein structure",
+      "bioinformatics tools",
+      "genomics",
+      "proteomics"
+    ]
   }
 ]
